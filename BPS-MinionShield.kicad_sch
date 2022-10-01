@@ -1862,6 +1862,12 @@
     (uuid fd303bd8-8943-4ecc-aac6-b2c31e4b4f23)
   )
 
+  (text "Using the CWF1B103F3380 thermistor\nWith B=3380, R0 = 10,000 ohms\n\nThermistor inputs come into these\nconnectors"
+    (at 245.11 78.105 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3ad250c5-14ca-44a5-9acc-8ed668f52ee2)
+  )
+
   (label "temp16" (at 207.01 150.495 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0063e01e-ff64-44e1-926a-7b446111605b)
