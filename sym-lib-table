@@ -6,4 +6,5 @@
   (lib (name "utsvt-power-regulators")(type "Legacy")(uri "${KIPRJMOD}/common/utsvt-power-regulators.lib")(options "")(descr ""))
   (lib (name "utsvt-bps")(type "Legacy")(uri "${KIPRJMOD}/bps-libs/utsvt-bps.lib")(options "")(descr ""))
   (lib (name "displayport")(type "Legacy")(uri "/home/bob/Downloads/KiCAD/2022-10-15_19-08-37/2022-10-15_19-08-37.lib")(options "")(descr ""))
+  (lib (name "connector")(type "KiCad")(uri "${KIPRJMOD}/connector.kicad_sym")(options "")(descr ""))
 )
