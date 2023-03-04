@@ -26,4 +26,4 @@ fp-info-cache
 *.csv
 
 # Backups
-BPS-MinionShield-backups/*
+BPS-MinionShield-backups/
