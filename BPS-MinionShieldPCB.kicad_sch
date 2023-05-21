@@ -2031,7 +2031,8 @@
     (uuid fd866198-9379-4724-952c-c6ebf9ce98d4)
   )
 
-  (text "Version History\n\nv2.2:\n" (at 224.79 107.95 0)
+  (text "Version History\n\nv2.2 (Summer 2023):\nCurrently 16 temperature sensors.\n\n"
+    (at 224.79 111.76 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 13c63ffe-b2dd-4d90-905a-e1526f4ec1e0)
   )
@@ -2333,7 +2334,7 @@
     (pin "8" (uuid daa04faa-a9e8-44a3-97a8-c2c3f8b5a294))
     (pin "9" (uuid 11d70a37-8cc6-4ce7-9ee0-0b38c86e5883))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "J2") (unit 1)
         )
@@ -2358,7 +2359,7 @@
     )
     (pin "1" (uuid 913dc35b-ff77-444c-83fe-118f12199ac3))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR05") (unit 1)
         )
@@ -2383,7 +2384,7 @@
     )
     (pin "1" (uuid 7bf64e3e-8cbd-4ee4-9ff2-7c5427644717))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR02") (unit 1)
         )
@@ -2417,7 +2418,7 @@
     (pin "8" (uuid 8d9f0d75-d1b2-4ca2-be3f-41b6827800e5))
     (pin "9" (uuid fb6de546-4f17-49ef-9c5e-0ab85d3a285b))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "J1") (unit 1)
         )
@@ -2443,7 +2444,7 @@
     (pin "1" (uuid 29329fd0-e71e-4ae2-8cc7-176f50d43215))
     (pin "2" (uuid e22540df-63b0-488c-a469-09e507169734))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C1") (unit 1)
         )
@@ -2468,7 +2469,7 @@
     )
     (pin "1" (uuid aedb3556-41c2-46b6-bccd-ce10301d1158))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR01") (unit 1)
         )
@@ -2493,7 +2494,7 @@
     )
     (pin "1" (uuid 6bef0969-996d-4261-ab79-6bc3403b31a5))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR04") (unit 1)
         )
@@ -2518,7 +2519,7 @@
     )
     (pin "1" (uuid 3cf61638-1503-4446-a946-db7ac47efc0e))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR03") (unit 1)
         )
@@ -2543,7 +2544,7 @@
     )
     (pin "1" (uuid c6d1132f-7f60-4be5-8f1e-939b3e92508f))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#FLG02") (unit 1)
         )
@@ -2568,7 +2569,7 @@
     )
     (pin "1" (uuid c8addf09-fb72-49f0-b274-ad9eb9a91c5d))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#FLG01") (unit 1)
         )
@@ -2592,7 +2593,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "H1") (unit 1)
         )
@@ -2616,7 +2617,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "H3") (unit 1)
         )
@@ -2640,7 +2641,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "H2") (unit 1)
         )
@@ -2664,7 +2665,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "H4") (unit 1)
         )
@@ -2690,7 +2691,7 @@
     (pin "1" (uuid 74d1789e-6323-44e3-a369-1004ba993f3b))
     (pin "2" (uuid df97f3a1-c4a0-4a58-988b-4622e5356d80))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R1") (unit 1)
         )
@@ -2716,7 +2717,7 @@
     (pin "1" (uuid c0ed908b-4e52-43ab-8bdf-008a07a0fc98))
     (pin "2" (uuid b2a7cbc4-b8f7-485b-9f51-ff107d5d174b))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "PowerLED1") (unit 1)
         )
@@ -2741,7 +2742,7 @@
     )
     (pin "1" (uuid 6d28b4ed-1017-45cf-8fa6-6738566eddcf))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR08") (unit 1)
         )
@@ -2766,7 +2767,7 @@
     )
     (pin "1" (uuid 55913949-35a4-4f6c-aeca-b46a663ca6b4))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR07") (unit 1)
         )
@@ -2791,7 +2792,7 @@
     )
     (pin "1" (uuid 77398789-f4b5-473b-8ad8-d298e286c51d))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR09") (unit 1)
         )
@@ -2816,7 +2817,7 @@
     )
     (pin "1" (uuid a8adeb09-cf5e-4902-8855-171a25154b16))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR013") (unit 1)
         )
@@ -2842,7 +2843,7 @@
     (pin "1" (uuid 9adfafa9-c4e1-4566-aea7-f4a21e291159))
     (pin "2" (uuid aa2bf8c1-64d9-4af8-8ad3-111f7f17246c))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R16") (unit 1)
         )
@@ -2868,7 +2869,7 @@
     (pin "1" (uuid a553a331-3d02-4d54-8a7d-cba5e3e4efd9))
     (pin "2" (uuid 330484c2-79fa-4615-bad6-410e5485f5b8))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB10") (unit 1)
         )
@@ -2894,7 +2895,7 @@
     (pin "1" (uuid f7618a5f-ebea-4cff-821d-3af664a34feb))
     (pin "2" (uuid f291d38a-7f37-4e87-9be5-c7d359893d98))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R24") (unit 1)
         )
@@ -2920,7 +2921,7 @@
     (pin "1" (uuid 4106b6a8-a4b5-4086-9384-0ab777879df9))
     (pin "2" (uuid 260eedf1-7c8a-4683-bec6-a051e4a97505))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB17") (unit 1)
         )
@@ -2946,7 +2947,7 @@
     (pin "1" (uuid c108096f-238e-4bad-9e7a-00ac35ae01f1))
     (pin "2" (uuid db9956d7-a0e0-4d8b-b647-c705b6f59055))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C3") (unit 1)
         )
@@ -2971,7 +2972,7 @@
     )
     (pin "1" (uuid dc627811-97f0-43da-871a-75e8638bdfaa))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR011") (unit 1)
         )
@@ -2996,7 +2997,7 @@
     )
     (pin "1" (uuid 523eac1c-3381-4967-a5e9-6f2b8e64689b))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR031") (unit 1)
         )
@@ -3021,7 +3022,7 @@
     )
     (pin "1" (uuid 28884133-8eeb-4833-82c7-041c04f64ae5))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR041") (unit 1)
         )
@@ -3047,7 +3048,7 @@
     (pin "1" (uuid 1a3c474d-7824-48ef-9089-fb931eb6441e))
     (pin "2" (uuid f34eb2d9-937b-4c4d-a05c-a17eb6e3c827))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R25") (unit 1)
         )
@@ -3073,7 +3074,7 @@
     (pin "1" (uuid 263fd7f1-8ec1-453f-9f75-51ae323e2dc3))
     (pin "2" (uuid 06a632b8-d09f-480c-94a2-e6f156c51116))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R9") (unit 1)
         )
@@ -3099,7 +3100,7 @@
     (pin "1" (uuid 75440b18-e914-4f2a-aa01-a6959a0aac63))
     (pin "2" (uuid 177c7668-3904-4f0e-9cfe-991c08f07281))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB2") (unit 1)
         )
@@ -3124,7 +3125,7 @@
     )
     (pin "1" (uuid da63190c-f06a-4373-b640-71f3cf4f1221))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR021") (unit 1)
         )
@@ -3150,7 +3151,7 @@
     (pin "1" (uuid 178c440f-5c11-45e1-8c24-62908d60055b))
     (pin "2" (uuid d513f74e-edf2-4e93-ad0a-c8cba211aa65))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB18") (unit 1)
         )
@@ -3176,7 +3177,7 @@
     (pin "1" (uuid 44df646c-9123-423c-b59c-5465b9e15347))
     (pin "2" (uuid 929ec422-1dfc-4e44-b5f1-ed1163f497e6))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C15") (unit 1)
         )
@@ -3202,7 +3203,7 @@
     (pin "1" (uuid 4a3d1532-dccb-4dc5-971f-2998bad3c127))
     (pin "2" (uuid a5ad6be7-154a-4e45-bc9c-3c7548ba63a4))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C16") (unit 1)
         )
@@ -3228,7 +3229,7 @@
     (pin "1" (uuid acd1168a-4fa3-4387-a60d-a1fe7ba4ad32))
     (pin "2" (uuid b22019d4-519e-4f99-848b-99fbf26419bd))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R31") (unit 1)
         )
@@ -3254,7 +3255,7 @@
     (pin "1" (uuid 5eb9a74f-a890-4a88-aaaf-5416c5a33177))
     (pin "2" (uuid 72affa9f-2ce2-407f-90bd-26f650ec8da7))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R33") (unit 1)
         )
@@ -3279,7 +3280,7 @@
     )
     (pin "1" (uuid 3fcd605f-9db4-4d4e-a1e5-83bbf373443c))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR016") (unit 1)
         )
@@ -3305,7 +3306,7 @@
     (pin "1" (uuid d086f1f9-5d3b-459c-a445-6bb092eb71f9))
     (pin "2" (uuid 3c5eb6c8-cf63-44d0-b985-678efa55a615))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB14") (unit 1)
         )
@@ -3331,7 +3332,7 @@
     (pin "1" (uuid 095c957d-f6b3-4dd8-a357-c38f7ee6c4c1))
     (pin "2" (uuid e3a7dc2b-3ff8-4470-b7e4-aee60abe2a81))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C4") (unit 1)
         )
@@ -3357,7 +3358,7 @@
     (pin "1" (uuid 846b5d32-0706-41b7-9376-87ee2e292657))
     (pin "2" (uuid 3027ffaa-e7ee-4c7d-94d8-dbea02285ec5))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB5") (unit 1)
         )
@@ -3383,7 +3384,7 @@
     (pin "1" (uuid a1b51811-a2d1-4bb7-a3c2-c38236613d69))
     (pin "2" (uuid 996268d4-7324-4247-9224-e16d8392c5ae))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R17") (unit 1)
         )
@@ -3408,7 +3409,7 @@
     )
     (pin "1" (uuid 425b22d2-f8a9-4fd5-aeb8-d0034dcb2db9))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR014") (unit 1)
         )
@@ -3433,7 +3434,7 @@
     )
     (pin "1" (uuid df386d26-f839-4423-a608-b0cedb2333dd))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR035") (unit 1)
         )
@@ -3459,7 +3460,7 @@
     (pin "1" (uuid 057864cb-ef74-44c9-82fa-5434deee0364))
     (pin "2" (uuid a631bbd2-75f4-48af-a6ce-f42f5a49eb4e))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R11") (unit 1)
         )
@@ -3485,7 +3486,7 @@
     (pin "1" (uuid d2f28525-dfdb-4574-a403-8144a4acf1a8))
     (pin "2" (uuid 770fdce2-dd69-4a14-97fc-1ef0c349a8d9))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C14") (unit 1)
         )
@@ -3510,7 +3511,7 @@
     )
     (pin "1" (uuid 0d6ccc46-1070-4896-b8b0-29911b8890cf))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR040") (unit 1)
         )
@@ -3558,7 +3559,7 @@
     (pin "8" (uuid aeb3e413-87b2-4b22-b41f-80a3fe11ebcd))
     (pin "9" (uuid 9673e8a3-6486-4fd8-ae48-acc91f7c03e4))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "J3") (unit 1)
         )
@@ -3584,7 +3585,7 @@
     (pin "1" (uuid cc302865-ddba-43a7-b336-b0142990acb4))
     (pin "2" (uuid e9d26553-34b1-4925-bbbf-48143b9ed1e9))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R28") (unit 1)
         )
@@ -3610,7 +3611,7 @@
     (pin "1" (uuid a3a613ae-6e91-4b30-bb65-e18b8d3dd6bd))
     (pin "2" (uuid 365dab3c-286c-49b3-922e-6ce42248fd57))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB1") (unit 1)
         )
@@ -3635,7 +3636,7 @@
     )
     (pin "1" (uuid a252bf97-2c6a-489d-8659-d9df5486a253))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR019") (unit 1)
         )
@@ -3661,7 +3662,7 @@
     (pin "1" (uuid 25d61f44-cc5a-4e5c-97f0-d278568917a5))
     (pin "2" (uuid c05957cb-5c50-49dc-8787-e8c8cfdcaa80))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R20") (unit 1)
         )
@@ -3686,7 +3687,7 @@
     )
     (pin "1" (uuid 667ba19a-dcd2-48c9-acca-a8163e4831f7))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR023") (unit 1)
         )
@@ -3712,7 +3713,7 @@
     (pin "1" (uuid 78ed7460-7704-4a41-8312-529060e1bbc8))
     (pin "2" (uuid a7fc11da-6988-40e5-be1f-09887b658f54))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R32") (unit 1)
         )
@@ -3738,7 +3739,7 @@
     (pin "1" (uuid 582c0a20-adc0-44f6-8e29-029fc3805659))
     (pin "2" (uuid 116d1e39-3807-4b0c-9c4c-f13258c75464))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C17") (unit 1)
         )
@@ -3764,7 +3765,7 @@
     (pin "1" (uuid d7448eb8-2a3c-49d4-84bc-02385e0299f7))
     (pin "2" (uuid 0096b1aa-2d71-4418-a96b-f9cb9a4b492b))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R23") (unit 1)
         )
@@ -3790,7 +3791,7 @@
     (pin "1" (uuid ebf9ed13-682f-4099-b5da-8eec7ea3bfda))
     (pin "2" (uuid 4e4d8b54-9431-4253-a39c-ed20b7ba21c5))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB9") (unit 1)
         )
@@ -3816,7 +3817,7 @@
     (pin "1" (uuid ca632200-fc48-42b9-906a-4f774c7f0627))
     (pin "2" (uuid efd9f89d-eb8b-4fa3-b0e4-5ad1e8cdd8ab))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R30") (unit 1)
         )
@@ -3842,7 +3843,7 @@
     (pin "1" (uuid e0096e2b-ff5e-46c6-8090-0c9925970fc1))
     (pin "2" (uuid 763bb53d-a94c-43e6-b1b1-e9bbb4169284))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R21") (unit 1)
         )
@@ -3868,7 +3869,7 @@
     (pin "1" (uuid 16c5fb9e-a477-4f8e-9851-db6e3226cfb3))
     (pin "2" (uuid 4e44fea8-678b-43c2-9181-3585b896a0d9))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R18") (unit 1)
         )
@@ -3894,7 +3895,7 @@
     (pin "1" (uuid aeb925f0-11f3-41b9-b37d-7a997e93d306))
     (pin "2" (uuid 5877c885-0238-4d7f-a3cf-3f2f44b22250))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C2") (unit 1)
         )
@@ -3919,7 +3920,7 @@
     )
     (pin "1" (uuid bc896177-1a72-420c-af98-850b764e0185))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR025") (unit 1)
         )
@@ -3944,7 +3945,7 @@
     )
     (pin "1" (uuid 6f463e5b-04fb-47ce-abaf-b30244b2244f))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR026") (unit 1)
         )
@@ -3970,7 +3971,7 @@
     (pin "1" (uuid 1f99e414-41ce-40b4-a540-da886e2bbc91))
     (pin "2" (uuid 6123b044-d9a8-4a43-9dfe-d473beb4dbf9))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R22") (unit 1)
         )
@@ -3995,7 +3996,7 @@
     )
     (pin "1" (uuid 970c6c02-56f0-446b-99af-530a821625dc))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR0101") (unit 1)
         )
@@ -4021,7 +4022,7 @@
     (pin "1" (uuid 8a836284-38d6-4ef3-a21d-8a8e7506f241))
     (pin "2" (uuid 47242b7e-ecfe-4e37-a114-b8f29546c00b))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C11") (unit 1)
         )
@@ -4047,7 +4048,7 @@
     (pin "1" (uuid 486f9139-c7aa-49b4-b530-d5c4ac43eea9))
     (pin "2" (uuid a7c294e6-b48e-4b16-ab58-cf3787052717))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB4") (unit 1)
         )
@@ -4072,7 +4073,7 @@
     )
     (pin "1" (uuid 2fe6742b-a9be-4c80-9dc2-dbb2b6fcaf71))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR012") (unit 1)
         )
@@ -4097,7 +4098,7 @@
     )
     (pin "1" (uuid 0ed6ea37-1fe0-46b6-99f9-3ad714fc4221))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR039") (unit 1)
         )
@@ -4123,7 +4124,7 @@
     (pin "1" (uuid 1b93d621-72bf-42d9-8926-9897d7b2bc35))
     (pin "2" (uuid bac573e8-bfca-4246-ad90-071f1bd8ed29))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R27") (unit 1)
         )
@@ -4149,7 +4150,7 @@
     (pin "1" (uuid 791bc281-a164-43a7-9efd-fa210284ffbd))
     (pin "2" (uuid db05f272-167a-473e-8807-7297d2b534c0))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C9") (unit 1)
         )
@@ -4174,7 +4175,7 @@
     )
     (pin "1" (uuid 96657d3b-d33a-42b2-be03-2ecd66a12713))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR033") (unit 1)
         )
@@ -4199,7 +4200,7 @@
     )
     (pin "1" (uuid 6ce6f41d-cc8c-4e84-abd2-31bf2feca7bf))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR018") (unit 1)
         )
@@ -4224,7 +4225,7 @@
     )
     (pin "1" (uuid 8208bcba-4fad-43d3-b976-35079d8b5b62))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR042") (unit 1)
         )
@@ -4250,7 +4251,7 @@
     (pin "1" (uuid ce651544-a51f-43c1-a212-9216ada451da))
     (pin "2" (uuid 6cd9b28d-6fd9-4b11-b193-bfd9ab227768))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB7") (unit 1)
         )
@@ -4276,7 +4277,7 @@
     (pin "1" (uuid fdd4c8ca-1d1e-4afc-bdbe-796801429f24))
     (pin "2" (uuid 590f39de-c659-45bd-bcb3-ad38aed00f47))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R10") (unit 1)
         )
@@ -4301,7 +4302,7 @@
     )
     (pin "1" (uuid a74db3f1-c547-4369-8baf-c2609a8d1cf9))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR038") (unit 1)
         )
@@ -4327,7 +4328,7 @@
     (pin "1" (uuid 833f8b3b-d516-4c88-840b-5cf9cf31b5e5))
     (pin "2" (uuid 93638046-d8d2-40f5-bccb-3a4cc52b61b0))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R26") (unit 1)
         )
@@ -4353,7 +4354,7 @@
     (pin "1" (uuid 4483b9da-5fac-4e4a-8965-b3daee856d73))
     (pin "2" (uuid ad4dd20d-bfc3-4018-9bf1-aebe763fd8b4))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R15") (unit 1)
         )
@@ -4379,7 +4380,7 @@
     (pin "1" (uuid 315714f4-5230-4dd6-bb10-8598f1981d74))
     (pin "2" (uuid e86e6876-44df-49c0-9c89-53a43d13075c))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R14") (unit 1)
         )
@@ -4404,7 +4405,7 @@
     )
     (pin "1" (uuid 248a813c-48a7-4132-a4fb-f6db251be2f9))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "GND1") (unit 1)
         )
@@ -4430,7 +4431,7 @@
     (pin "1" (uuid fac6c880-5e76-4528-b975-331270c9d091))
     (pin "2" (uuid 11b0a609-f5df-4c32-9ee5-2e2d5a886bfe))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C7") (unit 1)
         )
@@ -4456,7 +4457,7 @@
     (pin "1" (uuid a82e8991-0dac-45bc-a212-c5da2757665a))
     (pin "2" (uuid ccb06412-eb44-4d54-b805-8dde6c10c464))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R4") (unit 1)
         )
@@ -4482,7 +4483,7 @@
     (pin "1" (uuid e9181330-088a-40ed-8c58-c13f29bde1d4))
     (pin "2" (uuid 390becd2-bdb5-4503-949e-f17340008af6))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB13") (unit 1)
         )
@@ -4507,7 +4508,7 @@
     )
     (pin "1" (uuid 434fbe5d-b699-4267-84b9-9a1fe6a4e535))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR022") (unit 1)
         )
@@ -4533,7 +4534,7 @@
     (pin "1" (uuid 2e43bd7a-c2ee-4084-974e-ca737b9d5208))
     (pin "2" (uuid fc072745-280d-4bfa-baed-87239773fbcb))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R12") (unit 1)
         )
@@ -4559,7 +4560,7 @@
     (pin "1" (uuid 51004afb-2c09-4b80-8137-6c4c755a34b5))
     (pin "2" (uuid 662b5751-fad9-49e3-932d-19cb2c842a58))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R8") (unit 1)
         )
@@ -4584,7 +4585,7 @@
     )
     (pin "1" (uuid babba4e2-5347-45f4-8bf4-668e172571ba))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR017") (unit 1)
         )
@@ -4609,7 +4610,7 @@
     )
     (pin "1" (uuid 1e388719-7e31-4691-96d2-bc07dda39ff9))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR030") (unit 1)
         )
@@ -4635,7 +4636,7 @@
     (pin "1" (uuid 8a5bf0b9-22ca-4b50-8f95-7cde8c0c50be))
     (pin "2" (uuid 8dc4db65-d532-4abe-bc9e-8fa4e5ec4544))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB15") (unit 1)
         )
@@ -4661,7 +4662,7 @@
     (pin "1" (uuid aac01fc8-c837-48c0-897d-78f26a944aef))
     (pin "2" (uuid 70ca9f8a-54e4-4c1b-9513-2accbb074e77))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C18") (unit 1)
         )
@@ -4686,7 +4687,7 @@
     )
     (pin "1" (uuid 43fa5c48-4e27-4229-b5e7-a3cd95229b72))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR037") (unit 1)
         )
@@ -4711,7 +4712,7 @@
     )
     (pin "1" (uuid 24f5fa0c-e9ad-408c-8f00-1bc88d545f59))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR034") (unit 1)
         )
@@ -4737,7 +4738,7 @@
     (pin "1" (uuid 68789feb-3e2b-443f-8e39-1c584be1c050))
     (pin "2" (uuid cf3a94ae-9c5f-4e32-9c0d-7fc25cadcde1))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R2") (unit 1)
         )
@@ -4762,7 +4763,7 @@
     )
     (pin "1" (uuid 8a7cda8e-914e-41c7-84b2-d4b0f283f71a))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR020") (unit 1)
         )
@@ -4788,7 +4789,7 @@
     (pin "1" (uuid 4f99aae2-dc07-41f3-b8cd-193fefd23694))
     (pin "2" (uuid df599b08-b8b5-4cfd-97a2-db63b6eab21d))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R29") (unit 1)
         )
@@ -4814,7 +4815,7 @@
     (pin "1" (uuid 1bd9c14a-79e9-427d-a0a6-d4bbf3c8cb96))
     (pin "2" (uuid 33d7986c-b549-4378-b965-c088e267335d))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C10") (unit 1)
         )
@@ -4839,7 +4840,7 @@
     )
     (pin "1" (uuid f8736890-448d-4190-bdfb-b20a238beaa2))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR015") (unit 1)
         )
@@ -4865,7 +4866,7 @@
     (pin "1" (uuid bda4e1e4-926d-4aa0-80e2-b73c6023c6ee))
     (pin "2" (uuid 5fb489c4-36f1-4d23-8a89-b2e9016994bc))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB8") (unit 1)
         )
@@ -4891,7 +4892,7 @@
     (pin "1" (uuid 9e8f7c53-e5f7-4626-8d15-a5db3eed2001))
     (pin "2" (uuid 54361ae6-c9d3-42ef-91f2-e745f16fde59))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C6") (unit 1)
         )
@@ -4917,7 +4918,7 @@
     (pin "1" (uuid 4eef5c32-917b-4782-8dce-ad6db8909ac1))
     (pin "2" (uuid 62c80fe1-b04e-46be-917e-8ae8e0bf7498))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB3") (unit 1)
         )
@@ -4943,7 +4944,7 @@
     (pin "1" (uuid 05852db5-9f1a-45be-8b30-65fbc66ae30c))
     (pin "2" (uuid aa69429a-b280-48e5-9b20-e27c89e58968))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB11") (unit 1)
         )
@@ -4968,7 +4969,7 @@
     )
     (pin "1" (uuid abf4fb29-9dd9-4cad-8309-c2a5512d3a01))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR029") (unit 1)
         )
@@ -4994,7 +4995,7 @@
     (pin "1" (uuid 1d782fed-617e-4a76-87b3-87a612dd102f))
     (pin "2" (uuid eb60e829-f088-41bc-87f9-0c3ea3a06ba4))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C5") (unit 1)
         )
@@ -5020,7 +5021,7 @@
     (pin "1" (uuid c704c92b-551e-4709-a7d9-37420b465bdc))
     (pin "2" (uuid 996be8a1-a3fb-4d93-92fc-4cb6c8772f25))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C13") (unit 1)
         )
@@ -5046,7 +5047,7 @@
     (pin "1" (uuid f057c5ef-ecf4-41a4-bd2e-045ab1d074cf))
     (pin "2" (uuid ceecf89a-ed98-4f09-8c75-16f56aa93087))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R3") (unit 1)
         )
@@ -5071,7 +5072,7 @@
     )
     (pin "1" (uuid 2848ae94-1523-4ab7-bc9c-77af2702d10c))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR027") (unit 1)
         )
@@ -5097,7 +5098,7 @@
     (pin "1" (uuid d1d0432c-7676-453e-821a-cdcd05d04532))
     (pin "2" (uuid d95e52ce-dfc7-4748-aff2-d6967137676f))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R7") (unit 1)
         )
@@ -5123,7 +5124,7 @@
     (pin "1" (uuid 33a49a46-dbc6-4deb-ac8b-4e15c41d9656))
     (pin "2" (uuid a3c69885-4049-4eb4-8859-110ae72c6e4b))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB16") (unit 1)
         )
@@ -5148,7 +5149,7 @@
     )
     (pin "1" (uuid de50ba22-c875-4131-823f-11f7d2255df7))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR028") (unit 1)
         )
@@ -5173,7 +5174,7 @@
     )
     (pin "1" (uuid 159d6ec9-277f-4917-93d6-d3e40a7daec9))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR010") (unit 1)
         )
@@ -5199,7 +5200,7 @@
     (pin "1" (uuid e1620129-3ca0-4409-ad58-4d4cf1c7d4b3))
     (pin "2" (uuid 657b6111-5f8f-48e4-ac91-03ae16799f7f))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB12") (unit 1)
         )
@@ -5224,7 +5225,7 @@
     )
     (pin "1" (uuid c0a609fe-9247-4850-a647-c1cbfbbdbab0))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR032") (unit 1)
         )
@@ -5250,7 +5251,7 @@
     (pin "1" (uuid 6ab492e0-69c5-4359-afcc-9de01ecca44f))
     (pin "2" (uuid 84fa8f1f-ef79-4c71-a3a8-143a4e30ad74))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R5") (unit 1)
         )
@@ -5276,7 +5277,7 @@
     (pin "1" (uuid 558ffa5d-1e31-4418-8b4a-2f3b36f88cbf))
     (pin "2" (uuid 448b8e2f-af2e-4117-ad26-a24c1435ef31))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R13") (unit 1)
         )
@@ -5301,7 +5302,7 @@
     )
     (pin "1" (uuid 3067c32e-e14d-4b29-8be7-3f5ebd5f8703))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR036") (unit 1)
         )
@@ -5327,7 +5328,7 @@
     (pin "1" (uuid 5abdd656-17b6-435d-8118-795509cbcc5a))
     (pin "2" (uuid 9dc8f46a-73ed-47dd-b9d8-dd9ff9554297))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C8") (unit 1)
         )
@@ -5353,7 +5354,7 @@
     (pin "1" (uuid 58aeb898-1d45-4817-91f6-110b8adf1cdd))
     (pin "2" (uuid 05428b23-6298-4489-975b-ae475289a427))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R6") (unit 1)
         )
@@ -5379,7 +5380,7 @@
     (pin "1" (uuid 5c5e59d0-d7c4-4d08-86d2-4ae6fa98234e))
     (pin "2" (uuid 1e487634-aebf-4dd8-9377-3cd3fd228032))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "C12") (unit 1)
         )
@@ -5405,7 +5406,7 @@
     (pin "1" (uuid 0b63bda9-f7c7-4989-8523-071fbb6cb73e))
     (pin "2" (uuid 5f1687fa-5c62-4346-99c7-6dd2242e47c1))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "R19") (unit 1)
         )
@@ -5431,7 +5432,7 @@
     (pin "1" (uuid 8ea9bc33-371f-46e5-9785-5dd3456b6332))
     (pin "2" (uuid b0a75c24-a032-44cc-bc30-edcfd81cc656))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "FB6") (unit 1)
         )
@@ -5456,7 +5457,7 @@
     )
     (pin "1" (uuid 54acca69-6c39-43fb-98a2-93591efbdf10))
     (instances
-      (project "BPS-MinionShield"
+      (project "BPS-MinionShieldPCB"
         (path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
           (reference "#PWR024") (unit 1)
         )
