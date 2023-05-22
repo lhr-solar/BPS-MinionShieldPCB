@@ -2031,7 +2031,8 @@
     (uuid fd866198-9379-4724-952c-c6ebf9ce98d4)
   )
 
-  (text "Version History\n\nv2.2:\n" (at 224.79 107.95 0)
+  (text "Version History\n\nv2.2:\nBoard supports 16 temperature sensors"
+    (at 224.79 109.22 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 13c63ffe-b2dd-4d90-905a-e1526f4ec1e0)
   )
