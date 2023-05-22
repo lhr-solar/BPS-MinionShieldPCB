@@ -4491,6 +4491,11 @@
       (net 22 "/temp5") (pinfunction "Pin_23") (pintype "passive") (tstamp 03bc350e-7dd6-4ac6-8d8f-4628385c2d6f))
     (pad "24" thru_hole circle (at 0 0 90) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask")
       (net 30 "/temp6") (pinfunction "Pin_24") (pintype "passive") (tstamp 69182674-7994-4a72-b2b9-106666788a2b))
+    (model "${KIPRJMOD}/PADP-24V-1-S.STEP"
+      (offset (xyz 0 -4 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 0))
+    )
   )
 
   (footprint "Inductor_SMD:L_0805_2012Metric" (layer "F.Cu")
