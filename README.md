@@ -19,3 +19,4 @@ There is one green LED that indicates 5V is going into the minion shield
 ## Components
 [Mouser cart] https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=7839b6f629
 [Digikey connector] https://www.digikey.com/en/products/detail/jst-sales-america-inc/PADP-24V-1-S/1300227
+Excel BOM is in the BOM folder with the Ibom.HTML
