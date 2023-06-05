@@ -13,10 +13,10 @@ Note: The PADP-24V-1-S connector is not available on mouser, but may be purchase
 
 ## Connectors
 | # | Name | Type | Pin 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Notes |
-| - | - | - | - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | J1 | MinionPCB Connector | 1x10xP2.54mm Male | 5V | TempSensor1 | TempSensor2 | TempSensor3 | TempSensor4 | TempSensor5 | TempSensor6 | TempSensor7 | TempSensor8 | GND |
 | J2 | MinionPCB Connector | 1x10xP2.54mm Male | 5V | TempSensor9 | TempSensor10 | TempSensor11 | TempSensor12 | TempSensor13 | TempSensor14 | TempSensor15 | TempSensor16 | GND |
-| J3 | Thermistors | PADP-24V-1-S | See Schematic |
+| J3 | Thermistors | PADP-24V-1-S | See Schematic | | | | | | | | | | |
 
 ## PCB
 [**PDF without traces**](PCB.pdf)
