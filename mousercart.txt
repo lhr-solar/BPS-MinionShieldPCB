@@ -1,5 +1,0 @@
-
-https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=7839b6f629
-
-The connector cannot be found on mouser, but it can be purchased from digikey
-https://www.digikey.com/en/products/detail/jst-sales-america-inc/PADP-24V-1-S/1300227
