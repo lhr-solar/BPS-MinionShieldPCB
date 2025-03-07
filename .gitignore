@@ -27,3 +27,6 @@ fp-info-cache
 
 # Backups
 BPS-MinionShield-backups/
+
+*.lck
+*auto_saved_files#
