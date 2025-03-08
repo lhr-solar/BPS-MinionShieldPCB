@@ -4920,6 +4920,15 @@
 				(hide yes)
 			)
 		)
+		(property "p/n" "RT0805FRE071K2L"
+			(at 267.335 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d864a0d-98ff-4bb4-8415-24c63729e1d2")
 		)
@@ -4981,6 +4990,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 267.335 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" "150080VS75000"
 			(at 267.335 104.775 0)
 			(effects
 				(font
@@ -5211,7 +5229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e77814b-185b-4c8b-91a2-be7ca9f5f0f0")
-		(property "Reference" "SW?"
+		(property "Reference" "SW1"
 			(at 112.395 160.655 0)
 			(effects
 				(font
@@ -5272,7 +5290,7 @@
 		(instances
 			(project "BPS-MinionShield"
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
-					(reference "SW?")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -5395,6 +5413,15 @@
 				(hide yes)
 			)
 		)
+		(property "p/n" "HZ0805B222R-10 "
+			(at 252.095 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "308fa96e-6b1e-4d79-877b-7112d3b6c99b")
 		)
@@ -5438,7 +5465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical"
 			(at 103.505 177.8 0)
 			(effects
 				(font
@@ -5457,6 +5484,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 103.505 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" "436500227"
 			(at 103.505 177.8 0)
 			(effects
 				(font
@@ -5591,6 +5627,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 221.615 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" "HZ0805B222R-10 "
 			(at 221.615 91.44 0)
 			(effects
 				(font

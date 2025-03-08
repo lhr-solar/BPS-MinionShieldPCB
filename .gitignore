@@ -30,3 +30,5 @@ BPS-MinionShield-backups/
 
 *.lck
 *auto_saved_files#
+
+*DS_Store
