@@ -98,7 +98,9 @@
     "sort_ascending": true,
     "sorting_column": -1
   },
-  "open_jobsets": [],
+  "open_jobsets": [
+    "jobs.kicad_jobset"
+  ],
   "project": {
     "files": []
   },
