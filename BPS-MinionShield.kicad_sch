@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "0e9575a4-1ede-4f13-af58-a4e2eef0ca4e")
 	(paper "A4")
 	(title_block
@@ -11,9 +11,13 @@
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -111,10 +115,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -181,14 +188,14 @@
 			)
 			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
@@ -203,14 +210,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -250,10 +257,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x10"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -320,85 +330,19 @@
 			)
 			(symbol "Conn_01x10_1_1"
 				(rectangle
-					(start -1.27 -12.573)
-					(end 0 -12.827)
+					(start -1.27 11.43)
+					(end 1.27 -13.97)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 10.287)
+					(end 0 10.033)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -419,8 +363,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 10.287)
-					(end 0 10.033)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -430,14 +374,80 @@
 					)
 				)
 				(rectangle
-					(start -1.27 11.43)
-					(end 1.27 -13.97)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -451,24 +461,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -620,11 +612,32 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_02x09_Counter_Clockwise"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -691,74 +704,19 @@
 			)
 			(symbol "Conn_02x09_Counter_Clockwise_1_1"
 				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
+					(start -1.27 11.43)
+					(end 3.81 -11.43)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 10.287)
+					(end 0 10.033)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -779,8 +737,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 10.287)
-					(end 0 10.033)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -790,19 +748,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 11.43)
-					(end 3.81 -11.43)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -10.033)
-					(end 2.54 -10.287)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -812,8 +759,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 -7.493)
-					(end 2.54 -7.747)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -823,8 +770,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -834,8 +781,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -845,8 +792,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
+					(start -1.27 -7.493)
+					(end 0 -7.747)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -856,8 +803,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
+					(start -1.27 -10.033)
+					(end 0 -10.287)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -867,8 +814,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 5.207)
-					(end 2.54 4.953)
+					(start 3.81 10.287)
+					(end 2.54 10.033)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -889,8 +836,74 @@
 					)
 				)
 				(rectangle
-					(start 3.81 10.287)
-					(end 2.54 10.033)
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -7.493)
+					(end 2.54 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -10.033)
+					(end 2.54 -10.287)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -910,168 +923,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -10.16 180)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
-					(length 3.81)
-					(name "Pin_17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 180)
-					(length 3.81)
-					(name "Pin_18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1223,10 +1074,175 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 7.62 10.16 180)
+					(length 3.81)
+					(name "Pin_18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 3.81)
+					(name "Pin_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:FerriteBead_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1299,7 +1315,7 @@
 			(symbol "FerriteBead_Small_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
 					)
 					(stroke
 						(width 0)
@@ -1323,7 +1339,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+						(xy 0 -1.27) (xy 0 -0.7874)
 					)
 					(stroke
 						(width 0)
@@ -1372,11 +1388,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1458,7 +1479,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0) (xy -0.762 0)
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
 					)
 					(stroke
 						(width 0)
@@ -1482,19 +1515,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+						(xy 1.016 0) (xy -0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -1543,11 +1564,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1617,7 +1643,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -1629,7 +1655,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -1676,6 +1702,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -1758,10 +1785,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_DIP_x01"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1913,6 +1943,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
@@ -1990,7 +2021,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2002,7 +2033,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2016,7 +2047,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V"
 						(effects
 							(font
@@ -2033,6 +2065,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -2112,7 +2145,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -2129,12 +2163,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2225,6 +2264,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "utsvt-misc:Logo_Placeholder"
 			(pin_names
@@ -2287,33 +2327,9 @@
 				)
 			)
 			(symbol "Logo_Placeholder_0_1"
-				(arc
-					(start -1.905 0)
-					(mid 0 -1.905)
-					(end 1.905 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -0.635 1.27) (xy -0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.27) (xy 0.635 0)
 					)
 					(stroke
 						(width 0)
@@ -2334,8 +2350,122 @@
 						(type background)
 					)
 				)
+				(arc
+					(start 1.905 0)
+					(mid 0 -1.905)
+					(end -1.905 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 215.265 13.335)
+		(end 284.48 56.515)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d0552a16-c776-4517-817d-109de8e403e5)
+	)
+	(rectangle
+		(start 86.36 157.48)
+		(end 136.525 186.055)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid df3d747d-8c1c-46ca-aa8d-6d961bc11d97)
+	)
+	(text "Thermistor input"
+		(exclude_from_sim no)
+		(at 108.585 183.515 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
 		)
+		(uuid "12ee9b44-1ae2-4a1d-b1e9-e1f8b93cb054")
+	)
+	(text "Version History:\n"
+		(exclude_from_sim no)
+		(at 217.17 17.145 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "2342ef29-089f-40b4-a8c3-4b7785a52b7c")
+	)
+	(text "v2.3:\nFix footprint issues\nUpdate RC values to match timing of the LTC6811\nRedo PCB layout to reduce islands and vias\n\nv2.2:\nPCB layout to make everything symmetrical\nand easier to solder\n\nv2.1:\nBoard supports 16 temperature sensors, add \nRC filter to all temperature sensors"
+		(exclude_from_sim no)
+		(at 217.805 41.275 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3230c513-c13b-485e-8405-83e926cbfb05")
+	)
+	(text "Scrutineering Inputs"
+		(exclude_from_sim no)
+		(at 86.36 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57c5f45e-0cce-4ea9-a3e6-3216d27132cd")
+	)
+	(text "LTC6811 delay between sleep and \nmeasuring ADC voltage is T_WAKE+T_REFUP\n\nT_WAKE+T_REFUP = 200us+2.7ms=2.9ms (minimum)\nfreq = 1/.0029 = 345Hz\n\nSetting LC cutoff freq to 2*345 = 690\nUsing a 47nF cap and 4.7K resistor,\nwe achieve a cutoff freq of 720Hz. \n\n\n"
+		(exclude_from_sim no)
+		(at 227.965 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "637cf6e2-cea1-4882-a714-cedcd4849456")
+	)
+	(text "Output to minion"
+		(exclude_from_sim no)
+		(at 27.94 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e06e590-c52c-4c6c-8c1a-5902485b3b10")
 	)
 	(junction
 		(at 48.26 167.64)
@@ -3277,98 +3407,8 @@
 		)
 		(uuid "ffb0cce2-24a9-49e6-9db3-6226ade3dd91")
 	)
-	(rectangle
-		(start 215.265 13.335)
-		(end 284.48 56.515)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d0552a16-c776-4517-817d-109de8e403e5)
-	)
-	(rectangle
-		(start 86.36 157.48)
-		(end 136.525 186.055)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid df3d747d-8c1c-46ca-aa8d-6d961bc11d97)
-	)
-	(text "Thermistor input"
-		(exclude_from_sim no)
-		(at 108.585 183.515 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "12ee9b44-1ae2-4a1d-b1e9-e1f8b93cb054")
-	)
-	(text "Version History:\n"
-		(exclude_from_sim no)
-		(at 217.17 17.145 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "2342ef29-089f-40b4-a8c3-4b7785a52b7c")
-	)
-	(text "v2.3:\nFix footprint issues\nUpdate RC values to match timing of the LTC6811\nRedo PCB layout to reduce islands and vias\n\nv2.2:\nPCB layout to make everything symmetrical\nand easier to solder\n\nv2.1:\nBoard supports 16 temperature sensors, add \nRC filter to all temperature sensors"
-		(exclude_from_sim no)
-		(at 217.805 41.275 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3230c513-c13b-485e-8405-83e926cbfb05")
-	)
-	(text "Scrutineering Inputs"
-		(exclude_from_sim no)
-		(at 86.36 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57c5f45e-0cce-4ea9-a3e6-3216d27132cd")
-	)
-	(text "LTC6811 delay between sleep and \nmeasuring ADC voltage is T_WAKE+T_REFUP\n\nT_WAKE+T_REFUP = 200us+2.7ms=2.9ms (minimum)\nfreq = 1/.0029 = 345Hz\n\nSetting LC cutoff freq to 2*345 = 690\nUsing a 47nF cap and 4.7K resistor,\nwe achieve a cutoff freq of 720Hz. \n\n\n"
-		(exclude_from_sim no)
-		(at 227.965 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "637cf6e2-cea1-4882-a714-cedcd4849456")
-	)
-	(text "Output to minion"
-		(exclude_from_sim no)
-		(at 27.94 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e06e590-c52c-4c6c-8c1a-5902485b3b10")
-	)
 	(label "TempSens15"
 		(at 62.23 156.845 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3379,7 +3419,6 @@
 	)
 	(label "TempSens3"
 		(at 167.005 59.055 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3390,7 +3429,6 @@
 	)
 	(label "temp9"
 		(at 224.79 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3401,7 +3439,6 @@
 	)
 	(label "temp11"
 		(at 224.79 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3412,7 +3449,6 @@
 	)
 	(label "temp7"
 		(at 167.005 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3423,7 +3459,6 @@
 	)
 	(label "TempSens15"
 		(at 168.91 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3434,7 +3469,6 @@
 	)
 	(label "temp3"
 		(at 247.65 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3445,7 +3479,6 @@
 	)
 	(label "temp12"
 		(at 224.79 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3456,7 +3489,6 @@
 	)
 	(label "TempSens3"
 		(at 62.23 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3467,7 +3499,6 @@
 	)
 	(label "temp14"
 		(at 224.79 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3478,7 +3509,6 @@
 	)
 	(label "TempScut1"
 		(at 102.87 167.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3489,7 +3519,6 @@
 	)
 	(label "temp2"
 		(at 133.35 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3500,7 +3529,6 @@
 	)
 	(label "TempSens1"
 		(at 101.6 57.785 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3511,7 +3539,6 @@
 	)
 	(label "TempSens8"
 		(at 62.23 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3522,7 +3549,6 @@
 	)
 	(label "TempSens13"
 		(at 62.23 151.765 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3533,7 +3559,6 @@
 	)
 	(label "temp13"
 		(at 224.79 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3544,7 +3569,6 @@
 	)
 	(label "temp4"
 		(at 247.65 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3555,7 +3579,6 @@
 	)
 	(label "temp8"
 		(at 247.65 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3566,7 +3589,6 @@
 	)
 	(label "TempSens2"
 		(at 62.23 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3577,7 +3599,6 @@
 	)
 	(label "TempSens9"
 		(at 62.23 141.605 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3588,7 +3609,6 @@
 	)
 	(label "temp6"
 		(at 133.985 75.565 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3599,7 +3619,6 @@
 	)
 	(label "temp14"
 		(at 135.255 112.395 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3610,7 +3629,6 @@
 	)
 	(label "TempSens11"
 		(at 62.23 146.685 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3621,7 +3639,6 @@
 	)
 	(label "TempSens16"
 		(at 62.23 159.385 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3632,7 +3649,6 @@
 	)
 	(label "temp9"
 		(at 102.235 92.075 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3643,7 +3659,6 @@
 	)
 	(label "TempSens11"
 		(at 168.275 95.885 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3654,7 +3669,6 @@
 	)
 	(label "TempSens14"
 		(at 62.23 154.305 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3665,7 +3679,6 @@
 	)
 	(label "TempSens4"
 		(at 198.755 60.325 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3676,7 +3689,6 @@
 	)
 	(label "TempSens12"
 		(at 62.23 149.225 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3687,7 +3699,6 @@
 	)
 	(label "temp15"
 		(at 168.275 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3698,7 +3709,6 @@
 	)
 	(label "TempSens16"
 		(at 200.66 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3709,7 +3719,6 @@
 	)
 	(label "temp12"
 		(at 199.39 94.615 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3720,7 +3729,6 @@
 	)
 	(label "TempSens10"
 		(at 62.23 144.145 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3731,7 +3739,6 @@
 	)
 	(label "TempSens12"
 		(at 200.025 97.155 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3742,7 +3749,6 @@
 	)
 	(label "temp15"
 		(at 224.79 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3753,7 +3759,6 @@
 	)
 	(label "TempSens8"
 		(at 199.39 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3764,7 +3769,6 @@
 	)
 	(label "temp13"
 		(at 102.87 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3775,7 +3779,6 @@
 	)
 	(label "TempSens6"
 		(at 134.62 78.105 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3786,7 +3789,6 @@
 	)
 	(label "temp2"
 		(at 247.65 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3797,7 +3799,6 @@
 	)
 	(label "TempScut1"
 		(at 51.435 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3808,7 +3809,6 @@
 	)
 	(label "temp3"
 		(at 166.37 56.515 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3819,7 +3819,6 @@
 	)
 	(label "TempScut1"
 		(at 97.155 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3830,7 +3829,6 @@
 	)
 	(label "temp16"
 		(at 200.025 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3841,7 +3839,6 @@
 	)
 	(label "TempSens2"
 		(at 133.985 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3852,7 +3849,6 @@
 	)
 	(label "temp11"
 		(at 167.64 93.345 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3863,7 +3859,6 @@
 	)
 	(label "temp1"
 		(at 247.65 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3874,7 +3869,6 @@
 	)
 	(label "TempSens1"
 		(at 121.285 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3885,7 +3879,6 @@
 	)
 	(label "temp8"
 		(at 198.755 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3896,7 +3889,6 @@
 	)
 	(label "temp10"
 		(at 224.79 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3907,7 +3899,6 @@
 	)
 	(label "TempSens14"
 		(at 135.89 114.935 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3918,7 +3909,6 @@
 	)
 	(label "temp7"
 		(at 247.65 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3929,7 +3919,6 @@
 	)
 	(label "TempSens4"
 		(at 62.23 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3940,7 +3929,6 @@
 	)
 	(label "TempSens10"
 		(at 135.255 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3951,7 +3939,6 @@
 	)
 	(label "TempSens7"
 		(at 167.64 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3962,7 +3949,6 @@
 	)
 	(label "TempSens9"
 		(at 102.87 94.615 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3973,7 +3959,6 @@
 	)
 	(label "temp4"
 		(at 198.12 57.785 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3984,7 +3969,6 @@
 	)
 	(label "temp5"
 		(at 101.6 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3995,7 +3979,6 @@
 	)
 	(label "TempSens13"
 		(at 103.505 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4006,7 +3989,6 @@
 	)
 	(label "TempSens7"
 		(at 62.23 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4017,7 +3999,6 @@
 	)
 	(label "TempSens5"
 		(at 102.235 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4028,7 +4009,6 @@
 	)
 	(label "TempSens6"
 		(at 62.23 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4039,7 +4019,6 @@
 	)
 	(label "temp10"
 		(at 134.62 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4050,7 +4029,6 @@
 	)
 	(label "temp5"
 		(at 247.65 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4061,7 +4039,6 @@
 	)
 	(label "temp6"
 		(at 247.65 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4072,7 +4049,6 @@
 	)
 	(label "TempSens5"
 		(at 62.23 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4083,7 +4059,6 @@
 	)
 	(label "temp16"
 		(at 224.79 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4094,7 +4069,6 @@
 	)
 	(label "temp1"
 		(at 100.965 55.245 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6119,6 +6093,10 @@
 	(sheet
 		(at 116.84 72.39)
 		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6148,23 +6126,23 @@
 		)
 		(pin "Temp_in" input
 			(at 132.08 75.565 0)
+			(uuid "ddbde939-de09-43b2-9acf-1d9a537da6b7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ddbde939-de09-43b2-9acf-1d9a537da6b7")
 		)
 		(pin "Temp_Out" output
 			(at 132.08 78.105 0)
+			(uuid "4af79e5e-ab79-4111-929b-a09e14e510ea")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4af79e5e-ab79-4111-929b-a09e14e510ea")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -6177,6 +6155,10 @@
 	(sheet
 		(at 149.225 53.34)
 		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6206,23 +6188,23 @@
 		)
 		(pin "Temp_in" input
 			(at 164.465 56.515 0)
+			(uuid "7d750f43-9c48-414b-96e2-416a99a3da58")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7d750f43-9c48-414b-96e2-416a99a3da58")
 		)
 		(pin "Temp_Out" output
 			(at 164.465 59.055 0)
+			(uuid "2f618af2-c0dd-40eb-853e-0475f6cc61f5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2f618af2-c0dd-40eb-853e-0475f6cc61f5")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -6235,6 +6217,10 @@
 	(sheet
 		(at 85.725 108.585)
 		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6264,23 +6250,23 @@
 		)
 		(pin "Temp_in" input
 			(at 100.965 111.76 0)
+			(uuid "8ab8db10-9256-45e7-bf04-3558debeeb3c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8ab8db10-9256-45e7-bf04-3558debeeb3c")
 		)
 		(pin "Temp_Out" output
 			(at 100.965 114.3 0)
+			(uuid "a70fdeb4-5f61-4b94-af25-4f42d9267b0a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a70fdeb4-5f61-4b94-af25-4f42d9267b0a")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -6293,6 +6279,10 @@
 	(sheet
 		(at 151.13 109.855)
 		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6322,23 +6312,23 @@
 		)
 		(pin "Temp_in" input
 			(at 166.37 113.03 0)
+			(uuid "ab6c68f6-be49-4b81-af97-0b1d649edd96")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ab6c68f6-be49-4b81-af97-0b1d649edd96")
 		)
 		(pin "Temp_Out" output
 			(at 166.37 115.57 0)
+			(uuid "4d2a14d5-fd73-4b31-81d2-3e5d3c199fd2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4d2a14d5-fd73-4b31-81d2-3e5d3c199fd2")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -6351,6 +6341,10 @@
 	(sheet
 		(at 83.82 52.07)
 		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6380,23 +6374,23 @@
 		)
 		(pin "Temp_in" input
 			(at 99.06 55.245 0)
+			(uuid "e6825843-f376-4488-bf65-f991661c2fa5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e6825843-f376-4488-bf65-f991661c2fa5")
 		)
 		(pin "Temp_Out" output
 			(at 99.06 57.785 0)
+			(uuid "bfd09727-2433-4687-a398-4b2be75d8baf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bfd09727-2433-4687-a398-4b2be75d8baf")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -6409,6 +6403,10 @@
 	(sheet
 		(at 182.245 91.44)
 		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6438,23 +6436,23 @@
 		)
 		(pin "Temp_in" input
 			(at 197.485 94.615 0)
+			(uuid "30f6bd6e-a199-4e4b-bb44-73e669d36ad2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "30f6bd6e-a199-4e4b-bb44-73e669d36ad2")
 		)
 		(pin "Temp_Out" output
 			(at 197.485 97.155 0)
+			(uuid "a2cd7bc1-d10b-46b1-91d2-8c9533175363")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a2cd7bc1-d10b-46b1-91d2-8c9533175363")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -6467,6 +6465,10 @@
 	(sheet
 		(at 180.975 54.61)
 		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6496,23 +6498,23 @@
 		)
 		(pin "Temp_in" input
 			(at 196.215 57.785 0)
+			(uuid "9987329d-644f-4ea7-8629-a096b331b9c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9987329d-644f-4ea7-8629-a096b331b9c1")
 		)
 		(pin "Temp_Out" output
 			(at 196.215 60.325 0)
+			(uuid "32f06f62-dc99-4c60-a55e-bf3775e0a036")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "32f06f62-dc99-4c60-a55e-bf3775e0a036")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -6525,6 +6527,10 @@
 	(sheet
 		(at 85.09 88.9)
 		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6554,23 +6560,23 @@
 		)
 		(pin "Temp_in" input
 			(at 100.33 92.075 0)
+			(uuid "fc64e2fa-06d0-4c42-9dc6-44b502afe6bc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fc64e2fa-06d0-4c42-9dc6-44b502afe6bc")
 		)
 		(pin "Temp_Out" output
 			(at 100.33 94.615 0)
+			(uuid "60aa91a3-d2d5-47e3-b698-0b09cd5773b1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "60aa91a3-d2d5-47e3-b698-0b09cd5773b1")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -6583,6 +6589,10 @@
 	(sheet
 		(at 150.495 90.17)
 		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6612,23 +6622,23 @@
 		)
 		(pin "Temp_in" input
 			(at 165.735 93.345 0)
+			(uuid "ea47c653-ed26-4636-909e-a594c95ec7c5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ea47c653-ed26-4636-909e-a594c95ec7c5")
 		)
 		(pin "Temp_Out" output
 			(at 165.735 95.885 0)
+			(uuid "cf2b9724-08c1-4ffe-aabd-2ebd77da13d4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cf2b9724-08c1-4ffe-aabd-2ebd77da13d4")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -6641,6 +6651,10 @@
 	(sheet
 		(at 182.88 111.125)
 		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6670,23 +6684,23 @@
 		)
 		(pin "Temp_in" input
 			(at 198.12 114.3 0)
+			(uuid "5b72bc6c-570d-463e-ac62-5a96491e1438")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5b72bc6c-570d-463e-ac62-5a96491e1438")
 		)
 		(pin "Temp_Out" output
 			(at 198.12 116.84 0)
+			(uuid "a492d31b-6279-4069-b539-32dc3ba64022")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a492d31b-6279-4069-b539-32dc3ba64022")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -6699,6 +6713,10 @@
 	(sheet
 		(at 84.455 71.755)
 		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6728,23 +6746,23 @@
 		)
 		(pin "Temp_in" input
 			(at 99.695 74.93 0)
+			(uuid "0814ad41-5f2f-4f30-b5fe-6dd0efa40321")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0814ad41-5f2f-4f30-b5fe-6dd0efa40321")
 		)
 		(pin "Temp_Out" output
 			(at 99.695 77.47 0)
+			(uuid "02a3133a-865d-416e-8f50-e84de143b1a4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "02a3133a-865d-416e-8f50-e84de143b1a4")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -6757,6 +6775,10 @@
 	(sheet
 		(at 181.61 74.295)
 		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6786,23 +6808,23 @@
 		)
 		(pin "Temp_in" input
 			(at 196.85 77.47 0)
+			(uuid "f4f7305d-e169-4140-b4cc-9bd590f5c33d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f4f7305d-e169-4140-b4cc-9bd590f5c33d")
 		)
 		(pin "Temp_Out" output
 			(at 196.85 80.01 0)
+			(uuid "b8b3a27e-9ee0-4caf-a503-bcfea6340d00")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b8b3a27e-9ee0-4caf-a503-bcfea6340d00")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -6815,6 +6837,10 @@
 	(sheet
 		(at 117.475 89.535)
 		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6844,23 +6870,23 @@
 		)
 		(pin "Temp_in" input
 			(at 132.715 92.71 0)
+			(uuid "2cf944a3-ffc1-4547-9670-39706f718a15")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2cf944a3-ffc1-4547-9670-39706f718a15")
 		)
 		(pin "Temp_Out" output
 			(at 132.715 95.25 0)
+			(uuid "608796b1-38bf-423f-a829-83b8ccde6a38")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "608796b1-38bf-423f-a829-83b8ccde6a38")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -6873,6 +6899,10 @@
 	(sheet
 		(at 149.86 73.025)
 		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6902,23 +6932,23 @@
 		)
 		(pin "Temp_in" input
 			(at 165.1 76.2 0)
+			(uuid "931a3dc1-e27a-4b19-a94c-b00f55d79f4f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "931a3dc1-e27a-4b19-a94c-b00f55d79f4f")
 		)
 		(pin "Temp_Out" output
 			(at 165.1 78.74 0)
+			(uuid "147b9069-6cce-477f-870b-b45fbe81b3a5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "147b9069-6cce-477f-870b-b45fbe81b3a5")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -6931,6 +6961,10 @@
 	(sheet
 		(at 118.11 109.22)
 		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6960,23 +6994,23 @@
 		)
 		(pin "Temp_in" input
 			(at 133.35 112.395 0)
+			(uuid "66169bb4-21fd-4f34-a5fa-4abbed642465")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "66169bb4-21fd-4f34-a5fa-4abbed642465")
 		)
 		(pin "Temp_Out" output
 			(at 133.35 114.935 0)
+			(uuid "8ed656d9-8308-4c4b-965b-391c636a3a1e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8ed656d9-8308-4c4b-965b-391c636a3a1e")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -6989,6 +7023,10 @@
 	(sheet
 		(at 116.205 52.705)
 		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -7018,23 +7056,23 @@
 		)
 		(pin "Temp_in" input
 			(at 131.445 55.88 0)
+			(uuid "791d50d6-5bf1-4ac9-891a-78a7038bfab4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "791d50d6-5bf1-4ac9-891a-78a7038bfab4")
 		)
 		(pin "Temp_Out" output
 			(at 131.445 58.42 0)
+			(uuid "489a4331-0639-4df9-8a98-d3183e5205b7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "489a4331-0639-4df9-8a98-d3183e5205b7")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -7049,4 +7087,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

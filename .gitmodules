@@ -1,3 +1,6 @@
 [submodule "common"]
 	path = common
 	url = git@github.com:lhr-solar/UTSVT-KiCadLibraries.git
+[submodule "KiCAD-Bild"]
+	path = KiCAD-Bild
+	url = https://github.com/lhr-solar/KiCAD-Bild.git
