@@ -518,10 +518,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "BPSMinionConnector.net",
-      "plot": "",
+      "plot": "layoutFront",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "BPS-MinionShield.step",
+      "step": ".step",
       "svg": "",
       "vrml": ""
     },
