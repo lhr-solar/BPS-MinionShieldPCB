@@ -6,4 +6,5 @@
   (lib (name "utsvt-misc")(type "Legacy")(uri "${KIPRJMOD}/common/utsvt-misc.lib")(options "")(descr ""))
   (lib (name "utsvt-power-regulators")(type "Legacy")(uri "${KIPRJMOD}/common/utsvt-power-regulators.lib")(options "")(descr ""))
   (lib (name "minionShield")(type "KiCad")(uri "${KIPRJMOD}/minionShield.kicad_sym")(options "")(descr ""))
+  (lib (name "UTSVT_Connectors")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Bild/UTSVT_Connectors.kicad_sym")(options "")(descr ""))
 )
