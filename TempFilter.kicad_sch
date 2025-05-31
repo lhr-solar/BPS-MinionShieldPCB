@@ -862,7 +862,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6aa59dad-82ed-4a19-88a7-52b9c52d1870")
+			(uuid "d13a092e-0121-4e59-a752-360d684a85e5")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -912,6 +912,10 @@
 				)
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/aefbee89-cedd-4224-8d34-e19c3f8712a6"
 					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/b5b39d26-996d-4b80-8b0b-95fc6ddade53"
+					(reference "#PWR07")
 					(unit 1)
 				)
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/bc64ba2a-0992-412a-9240-778b52a7b51f"
@@ -994,11 +998,28 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1745"
+			(at 133.985 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC-p/n" ""
+			(at 133.985 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "88bb1f6a-4492-433f-a1af-ecbc4d8ebeb0")
+			(uuid "44dee8ca-e2af-4293-9d26-deff9ac59b90")
 		)
 		(pin "2"
-			(uuid "d0c1d557-b2dd-4f74-8dd9-2595afc04906")
+			(uuid "2b562003-552a-4bb6-ad7c-a89f9e1e1ba5")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -1048,6 +1069,10 @@
 				)
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/aefbee89-cedd-4224-8d34-e19c3f8712a6"
 					(reference "C8")
+					(unit 1)
+				)
+				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/b5b39d26-996d-4b80-8b0b-95fc6ddade53"
+					(reference "C17")
 					(unit 1)
 				)
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/bc64ba2a-0992-412a-9240-778b52a7b51f"
@@ -1130,11 +1155,28 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C17673"
+			(at 142.24 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC-p/n" ""
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "93656fd6-5a57-42e9-aa7d-25e3e05e9b75")
+			(uuid "f64db8a3-51a6-4abb-ad55-7bf31fe85e8d")
 		)
 		(pin "2"
-			(uuid "3d04bd8f-784b-4f17-b0ba-2d61e62af406")
+			(uuid "fe839184-dd5b-4e89-b7ec-7cb67199bd62")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -1184,6 +1226,10 @@
 				)
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/aefbee89-cedd-4224-8d34-e19c3f8712a6"
 					(reference "R15")
+					(unit 1)
+				)
+				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/b5b39d26-996d-4b80-8b0b-95fc6ddade53"
+					(reference "R34")
 					(unit 1)
 				)
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/bc64ba2a-0992-412a-9240-778b52a7b51f"
@@ -1259,7 +1305,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "044d5678-d0af-4aac-8b1e-672009fc6f04")
+			(uuid "439a657e-9373-4d68-9b56-b43d6e3dc12f")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -1309,6 +1355,10 @@
 				)
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/aefbee89-cedd-4224-8d34-e19c3f8712a6"
 					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/b5b39d26-996d-4b80-8b0b-95fc6ddade53"
+					(reference "#PWR09")
 					(unit 1)
 				)
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/bc64ba2a-0992-412a-9240-778b52a7b51f"
@@ -1391,11 +1441,28 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C17414"
+			(at 147.955 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC-p/n" ""
+			(at 147.955 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "ba3d990b-d7bd-4e75-849a-ec7deb27629c")
+			(uuid "31b9b6e6-6804-45eb-8196-201478a1418e")
 		)
 		(pin "2"
-			(uuid "60831e2b-4d4b-4f9b-919e-cfb56d51b852")
+			(uuid "f72142a6-69a0-4ea7-98cf-59f0c38dd374")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -1445,6 +1512,10 @@
 				)
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/aefbee89-cedd-4224-8d34-e19c3f8712a6"
 					(reference "R16")
+					(unit 1)
+				)
+				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/b5b39d26-996d-4b80-8b0b-95fc6ddade53"
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/bc64ba2a-0992-412a-9240-778b52a7b51f"
@@ -1519,8 +1590,16 @@
 				(hide yes)
 			)
 		)
+		(property "JLC-p/n" ""
+			(at 132.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "d605b8c3-94b9-4fbe-af97-a7f78239c283")
+			(uuid "4c107d21-cad4-499c-a5d6-2a8fedc72899")
 		)
 		(instances
 			(project "BPS-MinionShield"
@@ -1570,6 +1649,10 @@
 				)
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/aefbee89-cedd-4224-8d34-e19c3f8712a6"
 					(reference "TP10")
+					(unit 1)
+				)
+				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/b5b39d26-996d-4b80-8b0b-95fc6ddade53"
+					(reference "TP19")
 					(unit 1)
 				)
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e/bc64ba2a-0992-412a-9240-778b52a7b51f"

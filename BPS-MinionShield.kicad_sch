@@ -1787,7 +1787,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_DIP_x01"
+		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1796,15 +1796,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 3.81 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_DIP_x01"
-				(at 0 -3.81 0)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1821,6 +1821,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1829,7 +1838,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1838,28 +1847,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "dip switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW?DIP?x1*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DIP_x01_0_0"
+			(symbol "SW_SPDT_0_1"
 				(circle
 					(center -2.032 0)
-					(radius 0.508)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -1870,7 +1861,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.127) (xy 2.3622 1.1684)
+						(xy -1.651 0.254) (xy 1.651 2.286)
 					)
 					(stroke
 						(width 0)
@@ -1881,8 +1872,19 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
-					(radius 0.508)
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -1892,24 +1894,40 @@
 					)
 				)
 			)
-			(symbol "SW_DIP_x01_0_1"
+			(symbol "SW_SPDT_1_1"
 				(rectangle
-					(start -3.81 2.54)
-					(end 3.81 -2.54)
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-			)
-			(symbol "SW_DIP_x01_1_1"
 				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1925,16 +1943,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2391,8 +2409,8 @@
 		(uuid d0552a16-c776-4517-817d-109de8e403e5)
 	)
 	(rectangle
-		(start 86.36 157.48)
-		(end 136.525 186.055)
+		(start 129.54 130.175)
+		(end 214.63 160.02)
 		(stroke
 			(width 0)
 			(type default)
@@ -2404,7 +2422,7 @@
 	)
 	(text "Thermistor input"
 		(exclude_from_sim no)
-		(at 108.585 183.515 0)
+		(at 154.305 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2436,7 +2454,7 @@
 	)
 	(text "Scrutineering Inputs"
 		(exclude_from_sim no)
-		(at 86.36 156.21 0)
+		(at 129.54 130.175 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2480,7 +2498,7 @@
 		(uuid "349fcda1-43cd-4714-ba0a-610fd6c7ce16")
 	)
 	(junction
-		(at 97.79 177.8)
+		(at 143.51 151.765)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6183209-5881-47fe-b189-4dd0b8f92392")
@@ -2506,6 +2524,16 @@
 			(type default)
 		)
 		(uuid "001004e1-cd40-4d2e-8e9c-0e8e39d155bb")
+	)
+	(wire
+		(pts
+			(xy 199.39 138.43) (xy 201.93 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b00795-ec92-42fd-91e9-03203c884a8a")
 	)
 	(wire
 		(pts
@@ -2599,6 +2627,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 153.035) (xy 177.8 153.035)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183e649a-9c05-4433-aa36-b06cff3e5c6b")
+	)
+	(wire
+		(pts
 			(xy 246.38 93.98) (xy 247.65 93.98)
 		)
 		(stroke
@@ -2629,7 +2667,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 180.34) (xy 98.425 180.34)
+			(xy 140.97 154.305) (xy 144.145 154.305)
 		)
 		(stroke
 			(width 0)
@@ -2649,7 +2687,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 177.8) (xy 97.155 177.8)
+			(xy 143.51 151.765) (xy 142.875 151.765)
 		)
 		(stroke
 			(width 0)
@@ -2676,16 +2714,6 @@
 			(type default)
 		)
 		(uuid "296197ef-54d3-43cc-9653-e8b4f5b40b85")
-	)
-	(wire
-		(pts
-			(xy 120.015 167.64) (xy 121.285 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29ba21c4-39da-4ad2-a9f4-05385d07c7c7")
 	)
 	(wire
 		(pts
@@ -2846,6 +2874,16 @@
 			(type default)
 		)
 		(uuid "63d52746-b6f2-4cec-94ea-77fa3f801b2e")
+	)
+	(wire
+		(pts
+			(xy 154.94 144.145) (xy 156.21 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6415c19a-b20a-4b5f-8402-1594c0a89397")
 	)
 	(wire
 		(pts
@@ -3149,6 +3187,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 141.605) (xy 144.78 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af230733-3ac0-47f3-80b6-78f7a13e34a6")
+	)
+	(wire
+		(pts
 			(xy 246.38 104.14) (xy 247.65 104.14)
 		)
 		(stroke
@@ -3249,16 +3297,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 167.64) (xy 104.775 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cece60e7-5fa1-44ce-a7e8-0b61b0aee1bb")
-	)
-	(wire
-		(pts
 			(xy 165.735 95.885) (xy 168.275 95.885)
 		)
 		(stroke
@@ -3279,6 +3317,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 139.065) (xy 156.21 139.065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2a6812-7cfd-4171-b8c1-b21e1b7fea91")
+	)
+	(wire
+		(pts
 			(xy 224.79 109.22) (xy 233.68 109.22)
 		)
 		(stroke
@@ -3296,6 +3344,16 @@
 			(type default)
 		)
 		(uuid "e0fe1e68-9edc-4701-93e5-baf9d654f617")
+	)
+	(wire
+		(pts
+			(xy 199.39 135.89) (xy 201.295 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2299531-0883-412a-b8b4-494081e37a99")
 	)
 	(wire
 		(pts
@@ -3399,13 +3457,23 @@
 	)
 	(wire
 		(pts
-			(xy 98.425 177.8) (xy 97.79 177.8)
+			(xy 144.145 151.765) (xy 143.51 151.765)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ffb0cce2-24a9-49e6-9db3-6226ade3dd91")
+	)
+	(label "tempScruitIn"
+		(at 142.875 151.765 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00afc23e-095c-4315-880a-5a1a00a3c848")
 	)
 	(label "TempSens15"
 		(at 62.23 156.845 180)
@@ -3477,6 +3545,16 @@
 		)
 		(uuid "0c7a336b-0ca1-403a-a453-5ce85e30cfd4")
 	)
+	(label "TempScut1"
+		(at 201.93 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d97161d-9a47-4792-9b73-ade57d7b8e4b")
+	)
 	(label "temp12"
 		(at 224.79 101.6 0)
 		(effects
@@ -3506,16 +3584,6 @@
 			(justify left bottom)
 		)
 		(uuid "1f1096a8-c262-42ed-895a-c2950c846eff")
-	)
-	(label "TempScut1"
-		(at 102.87 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1fb99a82-bef3-4c38-b6f8-ac051f651dea")
 	)
 	(label "temp2"
 		(at 133.35 55.88 0)
@@ -3576,6 +3644,16 @@
 			(justify left bottom)
 		)
 		(uuid "34035b30-ff0c-4b40-88da-97bdbf08a60f")
+	)
+	(label "tempScruitIn"
+		(at 201.295 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35a253ac-ab7e-461d-9e22-dd978ed58fe1")
 	)
 	(label "temp8"
 		(at 247.65 109.22 0)
@@ -3747,6 +3825,16 @@
 		)
 		(uuid "67b2cc42-b5c9-4629-85bb-45d12e252b7e")
 	)
+	(label "TempScut1"
+		(at 156.21 144.145 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68f53171-ff16-4ac1-afb7-d32c7af27167")
+	)
 	(label "temp15"
 		(at 224.79 109.22 0)
 		(effects
@@ -3756,6 +3844,16 @@
 			(justify left bottom)
 		)
 		(uuid "6be98d9f-2421-4e6e-9147-1a4f0a40f01b")
+	)
+	(label "TempSens1"
+		(at 156.21 139.065 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "765ddd1a-fe06-41ed-9124-ba77f762b2bc")
 	)
 	(label "TempSens8"
 		(at 199.39 80.01 0)
@@ -3787,6 +3885,16 @@
 		)
 		(uuid "7cd4e5e6-edca-4a40-ac61-c57a98b45e3a")
 	)
+	(label "TempSens1Sel"
+		(at 143.51 141.605 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b386784-dbc4-43fc-b3a5-4a7aa9468206")
+	)
 	(label "temp2"
 		(at 247.65 93.98 0)
 		(effects
@@ -3797,16 +3905,6 @@
 		)
 		(uuid "8dc217e0-21ab-441f-afce-a96273ffd737")
 	)
-	(label "TempScut1"
-		(at 51.435 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "96bd5c58-e466-4657-82d3-cdeaaa6df961")
-	)
 	(label "temp3"
 		(at 166.37 56.515 0)
 		(effects
@@ -3816,16 +3914,6 @@
 			(justify left bottom)
 		)
 		(uuid "a08f7008-e7c2-46ba-bfbf-6fcfc4ee8b89")
-	)
-	(label "TempScut1"
-		(at 97.155 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a1891f99-5390-49d9-a83d-aa5230d4d3f9")
 	)
 	(label "temp16"
 		(at 200.025 114.3 0)
@@ -3867,16 +3955,6 @@
 		)
 		(uuid "ac97237e-9f1a-4837-a510-590d5517fc5a")
 	)
-	(label "TempSens1"
-		(at 121.285 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0c74772-0cea-4f25-a76f-74b87f9b6f59")
-	)
 	(label "temp8"
 		(at 198.755 77.47 0)
 		(effects
@@ -3886,6 +3964,16 @@
 			(justify left bottom)
 		)
 		(uuid "b1fe2530-271f-49ba-99e2-95dff187948f")
+	)
+	(label "TempSens1Sel"
+		(at 177.8 153.035 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3494c02-c0c3-49c5-b59b-325f1546a598")
 	)
 	(label "temp10"
 		(at 224.79 96.52 0)
@@ -3946,6 +4034,16 @@
 			(justify left bottom)
 		)
 		(uuid "c11e06d2-4796-4a3c-a840-d4c0c49b8055")
+	)
+	(label "TempSens1Sel"
+		(at 51.435 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd3eb5d3-9f26-4438-8855-bc18e1fd7f38")
 	)
 	(label "TempSens9"
 		(at 102.87 94.615 0)
@@ -4130,6 +4228,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLC-p/n" ""
+			(at 40.64 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "988310e0-d568-43ef-806b-a294a34a9045")
 		)
@@ -4285,6 +4391,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC-p/n" ""
+			(at 40.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4642,6 +4756,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLC-p/n" ""
+			(at 17.78 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "BPS-MinionShield"
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
@@ -4703,6 +4825,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC-p/n" ""
+			(at 30.48 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -4768,6 +4898,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLC-p/n" ""
+			(at 17.78 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "BPS-MinionShield"
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
@@ -4829,6 +4967,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC-p/n" ""
+			(at 30.48 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -4901,6 +5047,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17673"
+			(at 267.335 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC-p/n" ""
+			(at 267.335 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4979,6 +5142,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C94741"
+			(at 267.335 104.775 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC-p/n" ""
+			(at 267.335 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5194,85 +5374,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 112.395 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e77814b-185b-4c8b-91a2-be7ca9f5f0f0")
-		(property "Reference" "SW1"
-			(at 112.395 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x01"
-			(at 112.395 163.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MinionShield:DS04254201BKSMT"
-			(at 112.395 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 112.395 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 112.395 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" "DS04-254-2-01BK-SMT "
-			(at 112.395 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee30f4cb-f00e-4b2f-b847-7287cb821442")
-		)
-		(pin "2"
-			(uuid "8156d552-9570-4e13-8e60-243be18fd529")
-		)
-		(instances
-			(project "BPS-MinionShield"
-				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 95.25 180.34 0)
+		(at 140.97 154.305 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5280,7 +5383,7 @@
 		(dnp no)
 		(uuid "345b51d2-d053-493d-a559-c3046ad078da")
 		(property "Reference" "#PWR08"
-			(at 95.25 186.69 0)
+			(at 140.97 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5289,7 +5392,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.377 184.7342 0)
+			(at 141.097 158.6992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5297,7 +5400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 180.34 0)
+			(at 140.97 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5306,7 +5409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 180.34 0)
+			(at 140.97 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5315,7 +5418,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 180.34 0)
+			(at 140.97 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,6 +5433,94 @@
 			(project "BPS-MinionShield"
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 149.86 141.605 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3841cb19-74a4-41c6-8746-0fa04ddb8e32")
+		(property "Reference" "SW1"
+			(at 149.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 149.86 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MinionShield:CJS1200TB1"
+			(at 149.86 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 149.86 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" "CJS-1200TB1 "
+			(at 149.86 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC-p/n" ""
+			(at 149.86 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3fb7c4c1-bb8a-44cc-8d5f-6fc30cbfc9ec")
+		)
+		(pin "2"
+			(uuid "165b306f-3884-4b56-8102-c3c75a96f1d0")
+		)
+		(pin "1"
+			(uuid "ac9c018b-5862-41ae-9962-6f4f244be922")
+		)
+		(instances
+			(project ""
+				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -5396,6 +5587,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLC-p/n" ""
+			(at 252.095 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "308fa96e-6b1e-4d79-877b-7112d3b6c99b")
 		)
@@ -5413,16 +5612,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 103.505 177.8 0)
+		(at 149.225 151.765 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3aff7303-a4ae-4fbf-930a-31ce9f05f09c")
 		(property "Reference" "J3"
-			(at 106.045 177.7999 0)
+			(at 147.955 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5629,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 106.045 180.3399 0)
+			(at 151.765 154.3049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,7 +5638,7 @@
 			)
 		)
 		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical"
-			(at 103.505 177.8 0)
+			(at 149.225 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,7 +5647,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 103.505 177.8 0)
+			(at 149.225 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5656,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 103.505 177.8 0)
+			(at 149.225 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,12 +5665,20 @@
 			)
 		)
 		(property "p/n" "436500227"
-			(at 103.505 177.8 0)
+			(at 149.225 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC-p/n" ""
+			(at 149.225 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5543,6 +5749,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC-p/n" ""
+			(at 48.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5616,6 +5830,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC-p/n" ""
+			(at 221.615 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5760,6 +5982,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLC-p/n" ""
+			(at 238.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "0aa0a7f8-e007-4754-ad1a-1925a5dcbfb8")
 		)
@@ -5825,6 +6055,79 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 176.53 153.035 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8317291b-1b33-41d2-b91f-4cbc24055c87")
+		(property "Reference" "TP20"
+			(at 173.228 147.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 173.228 150.495 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 176.53 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 176.53 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC-p/n" ""
+			(at 176.53 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ace92281-4526-4407-a317-d35773b3ceaf")
+		)
+		(instances
+			(project "BPS-MinionShield"
+				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 48.26 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5878,6 +6181,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLC-p/n" ""
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "248a813c-48a7-4132-a4fb-f6db251be2f9")
 		)
@@ -5892,7 +6203,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 97.79 177.8 0)
+		(at 143.51 151.765 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5901,7 +6212,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1e15a4c-ddbf-478b-bd67-fd1eb3aacbdf")
 		(property "Reference" "TP2"
-			(at 95.885 175.7681 0)
+			(at 141.605 149.7331 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,7 +6222,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 95.885 173.2281 0)
+			(at 141.605 147.1931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5921,7 +6232,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 102.87 177.8 0)
+			(at 148.59 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,7 +6241,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 177.8 0)
+			(at 148.59 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,12 +6250,20 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 97.79 177.8 0)
+			(at 143.51 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC-p/n" ""
+			(at 143.51 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6012,6 +6331,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC-p/n" ""
+			(at 43.18 17.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -6830,6 +7157,68 @@
 			(project "BPS-MinionShield"
 				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 132.715)
+		(size 15.24 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b5b39d26-996d-4b80-8b0b-95fc6ddade53")
+		(property "Sheetname" "TempFilter16"
+			(at 184.15 132.0034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TempFilter.kicad_sch"
+			(at 184.15 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Temp_in" input
+			(at 199.39 135.89 0)
+			(uuid "84c885ab-e0a3-43f2-b15f-b506693787b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Temp_Out" output
+			(at 199.39 138.43 0)
+			(uuid "69e2fe78-3ab7-46b3-84a8-e1aaf6d57cad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "BPS-MinionShield"
+				(path "/0e9575a4-1ede-4f13-af58-a4e2eef0ca4e"
+					(page "18")
 				)
 			)
 		)

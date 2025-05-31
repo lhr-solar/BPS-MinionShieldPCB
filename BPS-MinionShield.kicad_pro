@@ -551,7 +551,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -575,7 +575,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
@@ -597,6 +597,18 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC-p/n",
+          "name": "JLC-p/n",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -724,6 +736,10 @@
     [
       "ad19810c-6d2c-4054-9825-191b295a2794",
       "TempFilter15"
+    ],
+    [
+      "b5b39d26-996d-4b80-8b0b-95fc6ddade53",
+      "TempFilter16"
     ]
   ],
   "text_variables": {}
